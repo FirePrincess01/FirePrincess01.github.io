@@ -1,13 +1,13 @@
 {
-  "name": "wgpu_renderer",
+  "name": "wave_simulation",
   "version": "0.1.0",
   "files": [
-    "wgpu_renderer_bg.wasm",
-    "wgpu_renderer.js",
-    "wgpu_renderer.d.ts"
+    "wave_simulation_bg.wasm",
+    "wave_simulation.js",
+    "wave_simulation.d.ts"
   ],
-  "module": "wgpu_renderer.js",
-  "types": "wgpu_renderer.d.ts",
+  "module": "wave_simulation.js",
+  "types": "wave_simulation.d.ts",
   "sideEffects": [
     "./snippets/*"
   ]
