@@ -1,0 +1,16 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "python server",
+			"type": "shell",
+			"windows": {
+				"command": "python -m http.server 8000",
+			},
+			"linux": {
+				"command": "python3 -m http.server 8000",
+			},
+			"problemMatcher": []
+		}
+	]
+}

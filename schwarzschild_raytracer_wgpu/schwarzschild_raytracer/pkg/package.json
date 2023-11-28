@@ -1,0 +1,14 @@
+{
+  "name": "schwarzschild_raytracer",
+  "version": "0.1.0",
+  "files": [
+    "schwarzschild_raytracer_bg.wasm",
+    "schwarzschild_raytracer.js",
+    "schwarzschild_raytracer.d.ts"
+  ],
+  "module": "schwarzschild_raytracer.js",
+  "types": "schwarzschild_raytracer.d.ts",
+  "sideEffects": [
+    "./snippets/*"
+  ]
+}
